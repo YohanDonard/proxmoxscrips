@@ -6,10 +6,10 @@ source <(curl -s https://raw.githubusercontent.com/community-scripts/ProxmoxVE/m
 # Source: https://www.debian.org/
 
 # App Default Values
-APP="amp"
+APP="tailscale"
 var_tags="os"
-var_cpu="3"
-var_ram="16384"
+var_cpu="1"
+var_ram="1024"
 var_disk="64"
 var_os="debian"
 var_version="12"
